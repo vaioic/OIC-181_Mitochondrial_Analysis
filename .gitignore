@@ -1,2 +1,4 @@
 /50_mm
 /500_mm
+*.czi
+.vscode
