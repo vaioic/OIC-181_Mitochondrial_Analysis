@@ -1,9 +1,5 @@
-/50_mm
-/500_mm
-*.czi
 .vscode
 /Training_Data
 /StarDist_Transfer_Learning_Snapshots
 /Output
-/skeletons
-*.tif
+/Image_Data
