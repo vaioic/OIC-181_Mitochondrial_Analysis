@@ -3,3 +3,5 @@
 /StarDist_Transfer_Learning_Snapshots
 /Output
 /Image_Data
+__pycache__
+.ipynb_checkpoints

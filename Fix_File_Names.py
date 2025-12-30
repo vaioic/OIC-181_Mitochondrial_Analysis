@@ -11,7 +11,9 @@ def replace_spaces_with_underscores_recursive(directory):
         for filename in files:
             if ' ' in filename:
                 old_path = os.path.join(root, filename)
-                new_filename = filename.replace(' ', '_')
+                new_filename = filename.replace(' _', '_')
+                new_filename = new_filename.replace(' ', '_')
+                new_filename = new_filename.replace('1.5_hr', '90_min')
                 new_path = os.path.join(root, new_filename)
                 try:
                     os.rename(old_path, new_path)
